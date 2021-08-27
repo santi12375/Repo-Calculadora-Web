@@ -69,6 +69,70 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
         </plugin>
+        
+        <!--Añadido Para Find Bugs  -->
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>findbugs-maven-plugin</artifactId>
+            <version>3.0.4</version>
+            <configuration>
+                <xmlOutput>true</xmlOutput>
+                <effort>Max</effort>
+                <threshold>Low</threshold>
+            
+                <xmlOutputDirectory>reports/findbugs/</xmlOutputDirectory>
+            </configuration>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>findbugs</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+        
+        <!--Añadido Para PMD  --> 
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <version>3.14.0</version>
+            <configuration>
+              <linkXref>true</linkXref>
+              <sourceEncoding>utf-8</sourceEncoding>
+              <minimumTokens>100</minimumTokens>
+              <targetJdk>1.8</targetJdk>
+              <format>xml</format>
+              <excludes>
+                <exclude>**/*Bean.java</exclude>
+                <exclude>**/generated/*.java</exclude>
+              </excludes>
+              <excludeRoots>
+                <excludeRoot>target/generated-sources/stubs</excludeRoot>
+              </excludeRoots>
+              <outputDirectory>reports/pdm/</outputDirectory>
+            </configuration>
+            <executions>
+                <execution>
+                    <phase>Validate</phase>
+                    <goals>
+                        <goal>pdm</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+        
+        <!--Añadido Para Checkstyles  --> 
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.1.2</version>
+            <configuration>
+                <encoding>UTF-8</encoding>
+                <failsOnError>false</failsOnError>
+                <outputFile>reports/checkstyle/checkstyle.xml</outputFile>
+            </configuration>
+        </plugin>  
+        
       </plugins>
     </pluginManagement>
   </build>

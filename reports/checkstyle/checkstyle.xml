@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\Santiago\Documents\Universidad\Semestre 2021-1\Pruebas\CalculadoraWeb\proyecto-maven-calculadora\src\main\java\Controller\CalculadoraServlet.java">
+<error line="1" severity="error" message="Falta el archivo package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="1" column="9" severity="error" message="El nombre &apos;Controller&apos; debe coincidir con el patrón &apos;^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="9" severity="error" message="La primera frase debería finalizar con un punto." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="1" severity="error" message="Archivo contiene caracteres de tabulación (este es el primer ejemplo)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="24" severity="error" message="La línea es mayor de 80 caracteres (encontrado 91)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="26" severity="error" message="La línea es mayor de 80 caracteres (encontrado 125)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="26" column="30" severity="error" message="El parámetro request debería ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="26" column="49" severity="error" message="Se esperaba la etiqueta @param para &apos;request&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="26" column="58" severity="error" message="El parámetro response debería ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="26" column="78" severity="error" message="Se esperaba la etiqueta @param para &apos;response&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="28" severity="error" message="La línea es mayor de 80 caracteres (encontrado 92)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="32" severity="error" message="La línea es mayor de 80 caracteres (encontrado 92)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="34" severity="error" message="La línea es mayor de 80 caracteres (encontrado 126)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="34" column="31" severity="error" message="El parámetro request debería ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="34" column="50" severity="error" message="Se esperaba la etiqueta @param para &apos;request&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="34" column="59" severity="error" message="El parámetro response debería ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="34" column="79" severity="error" message="Se esperaba la etiqueta @param para &apos;response&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="37" column="33" severity="error" message="&apos;=&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="37" column="33" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="38" severity="error" message="La línea es mayor de 80 caracteres (encontrado 83)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="40" severity="error" message="La línea es mayor de 80 caracteres (encontrado 83)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="41" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="44" column="45" severity="error" message="&apos;+&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="44" column="45" severity="error" message="&apos;+&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="47" column="45" severity="error" message="&apos;-&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="47" column="45" severity="error" message="&apos;-&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="49" column="22" severity="error" message="&apos;3&apos; es un número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="50" column="45" severity="error" message="&apos;*&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="50" column="45" severity="error" message="&apos;*&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="52" column="22" severity="error" message="&apos;4&apos; es un número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="53" column="25" severity="error" message="&apos;if&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="55" column="25" severity="error" message="&apos;}&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="26" severity="error" message="&apos;else&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="56" column="53" severity="error" message="&apos;/&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="56" column="53" severity="error" message="&apos;/&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="58" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="63" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="66" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+</checkstyle>
