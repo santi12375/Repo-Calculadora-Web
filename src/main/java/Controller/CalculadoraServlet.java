@@ -11,15 +11,15 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class CalculadoraServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-        int a;
+int a;
     
     /**
      * @see HttpServlet#HttpServlet()
      */
     public CalculadoraServlet() {
-        super();
+                                                                                                                    super();
         // TODO Auto-generated constructor stub
-    }
+                                                                        }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
