@@ -95,7 +95,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
-            <version>3.14.0</version>
+            <version>3.13.0</version>
             <configuration>
               <linkXref>true</linkXref>
               <sourceEncoding>utf-8</sourceEncoding>
@@ -109,13 +109,13 @@
               <excludeRoots>
                 <excludeRoot>target/generated-sources/stubs</excludeRoot>
               </excludeRoots>
-              <outputDirectory>reports/pdm/</outputDirectory>
+              <outputDirectory>reports/pmd/</outputDirectory>
             </configuration>
             <executions>
                 <execution>
                     <phase>Validate</phase>
                     <goals>
-                        <goal>pdm</goal>
+                        <goal>pmd</goal>
                     </goals>
                 </execution>
             </executions>

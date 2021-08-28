@@ -53,7 +53,7 @@ public class CalculadoraServlet extends HttpServlet {
 			if(n2 == 0) {
 				resultado = "No se puede dividir por 0";
 			}else {
-				resultado = "" + (n1/n2);
+				resultado = "" + (n1//n2);
 			}
 			
 			break;
