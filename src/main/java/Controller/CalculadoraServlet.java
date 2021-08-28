@@ -11,7 +11,8 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class CalculadoraServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+        int a;
+    
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -53,7 +54,7 @@ public class CalculadoraServlet extends HttpServlet {
 			if(n2 == 0) {
 				resultado = "No se puede dividir por 0";
 			}else {
-				resultado = "" + (n1//n2);
+				resultado = "" + (n1/n2);
 			}
 			
 			break;
